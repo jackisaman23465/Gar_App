@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textSize="44dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/signup_username"
+        android:hint="@string/username"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/signup_password"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/confirm_password"
+        android:hint="@string/password"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:id="@+id/signup_enterbtn"
+        android:onClick="onSignUpFinishInsertClick"
+        android:background="@drawable/buttonshape"/>
+
+</LinearLayout>

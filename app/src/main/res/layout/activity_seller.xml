@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carinfo"
+        android:textSize="44dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/carname"
+        android:hint="@string/carname"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/brand"
+        android:hint="@string/brand"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/model"
+        android:hint="@string/model"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fuelconsumption"
+        android:hint="@string/fuelconsumption"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/enginedisplacement"
+        android:hint="@string/enginedisplacement"/>
+
+    <EditText
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textviewshape"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:hint="@string/price"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enter"
+        android:id="@+id/signup_enterbtn"
+        android:onClick="onCarInfoFinishInsertClick"
+        android:background="@drawable/buttonshape"/>
+
+</LinearLayout>
